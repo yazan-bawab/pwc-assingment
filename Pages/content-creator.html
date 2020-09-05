@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PWC Assingment</title>
+    <link rel="stylesheet" href="../Assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../Assets/css/linericon/style.css">
+    <link rel="stylesheet" href="../Assets/css/style.css">
+    <link rel="stylesheet" href="../Assets/css/responsive.css">
+</head>
+
+<body>
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container box_1620">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+                            <li class="nav-item show"><a id="logout" class="nav-link">LogOut</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Create/Edit Blog</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog_area" style="margin-top: 10%">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="mt-10">
+                        <input type="text" id="blogHeader" placeholder="Blog Header" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Blog Header'" required="" class="single-input">
+                    </div>
+                    <div class="mt-10">
+                        <textarea class="single-textarea" placeholder="Blog Content" onfocus="this.placeholder = ''"
+                            onblur="this.placeholder = 'Blog Content'" required="" style="height: 300px;"></textarea>
+                    </div>
+                </div>
+                <div class="col-4 mt-10">
+                    <div class="col-lg-8 imgUp">
+                        <div class="imagePreview"></div>
+                        <label class="btn btn-primary">
+                            Upload<input type="file" class="uploadFile img" value="Upload Photo"
+                                style="width: 0px;height: 0px;overflow: hidden;">
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row hide" id="preContent">
+                <div class="col-12">
+                    <div class="section-top-border">
+                        <h3 class="mb-30 title_color">Current Blog Content</h3>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <blockquote class="generic-blockquote">
+                                    <p>“Recently, the US Federal government banned online casinos from operating in
+                                        America
+                                        by making it illegal to transfer money to them through any US bank or payment
+                                        system.</p>
+                                    <p> As a result of this law, most of the popular online casino networks such as
+                                        Party Gaming and PlayTech left the United States. Overnight, online casino
+                                        players
+                                        found themselves being chased by the Federal government. But, after a fortnight,
+                                        the
+                                        online casino industry came up with a solution and new online casinos started
+                                        taking
+                                        root. These began to operate under a different business umbrella, and by doing
+                                        that,
+                                        rendered the transfer of money to and from them legal. A major part of this was
+                                        enlisting electronic banking systems that would accept this new clarification
+                                        and
+                                        start doing business with me. Listed in this article are the electronic banking”
+                                    </p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-2 offset-10">
+                    <a id="doneEditing" class="main_btn show mt-10 mb-30">Save</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../Assets/js/jquery-3.2.1.min.js"></script>
+    <script src="../Assets/js/popper.js"></script>
+    <script src="../Assets/js/bootstrap.min.js"></script>
+    <script src="../Assets/js/theme.js"></script>
+    <script src="../Assets/js/common.js"></script>
+    <script src="../Assets/js/UserOperation.js"></script>
+    <script src="../Assets/js/blogOperation.js"></script>
+    <script src="../Assets/js/pages-scripts/content-creator-scripts.js"></script>
+</body>
+
+</html>
